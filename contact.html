@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="Keywords" content="James, Karsten, photography, photos" />
+    <meta name="Description" content="Photographic portfolio and services" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+    <!-- HEADER -->
+    <header>
+        <div id="head">
+            <a href="index.html"><span id="name-first">James</span><span id="name-last">Karsten</span></a>
+        </div>
+        <div id="navigation">
+            <div class="dropdown">
+                <a href="#" class="nav-level-1">Portfolio</a>
+                <div class="nav-level-2">
+                    <a href="portrait.html">Portrait</a>
+                    <a href="nature.html">Nature & Urban</a>
+                    <a href="film.html">B&W Film</a>
+                </div>
+            </div>
+            <a href="about.html" class="nav-level-1">About</a>
+            <a href="contact.html" class="nav-level-1">Contact</a>
+        </div>
+    </header>
+
+    <!-- Navigation table requirement -->
+    <table id="map">
+        <tr>
+            <!-- <th>Site Map</th></tr><tr> -->
+            <td><a href="portrait.html" id="navigation" class="dropdown">Portrait Portfolio</a></td>
+            <td><a href="nature.html" id="navigation" class="dropdown">Nature & Urban Portfolio</a></td>
+            <td><a href="film.html" id="navigation" class="dropdown">Black & White Film Portfolio</a></td>
+            <td><a href="about.html" id="navigation">About</a></td>
+            <td><a href="contact.html" id="navigation">Contact</a></td>
+        </tr>
+    </table>
+
+    <!-- ARTICLE -->
+    <article>
+        <h1>Contact</h1>
+        <p>
+            Please fill out the following form to arrange a photo shoot! Within a few days of submission, you will receive an email with a quote to arrange final details.
+        </p><br/><hr><br/>
+        <form>
+            Name (First): <input type="text" name="first" /><br/>
+            Name (Last): <input type="text" name="last" />
+            <br/><br/>
+            Email Address: <input type="text" name="email" />
+            <br/><br/>
+            Type of photo shoot:<br/>
+            <input type="radio" name="type" value="grad" /> Graduation photos<br/>
+            <input type="radio" name="type" value="senior" /> Senior photos<br/>
+            <input type="radio" name="type" value="professional" /> Professional headshots<br/>
+            <input type="radio" name="type" value="other" /> Other
+            <br/><br/>
+            If you have any location ideas (specific or general), please indicate those:<br/>
+            <textarea name="location"></textarea>
+            <br/><br/>
+            Tentative date of photo shoot:
+            <input type="date" name="date" />
+            <br/>
+            Is this date flexible?
+            <input type="radio" name="date-flex" value="yes" /> Yes
+            <input type="radio" name="date-flex" value="no" /> No
+            <br/><br/>
+            Please include any other relevant information that you have not indicated:<br/>
+            <textarea name="other"></textarea>
+            <br/><br/>
+            <input type="reset" class="button"/>
+            <input type="submit" class="button"/>
+        </form>
+    </article>
+
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <!-- <div id="contact">
+            <h4>Contact</h4>
+            <a href="mailto:james.e.karsten@gmail.com">Email</a>
+        </div>
+        <hr color="white"/> -->
+        <div id="copyright">
+            Copyright &copy; 2020 James Karsten. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
