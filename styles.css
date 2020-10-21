@@ -211,30 +211,6 @@ a:hover.nav-level-1 {
 }
 
 
-/* NAVIGATION TABLE */
-
-table#map {
-    /* border-collapse: collapse; */
-    color: var(--secondary-color);
-}
-
-table#map td {
-    width: 150px;
-    font-family: var(--medium-font);
-    /* text-align: left; */
-    border: 1px var(--secondary-color) solid;
-    /* vertical-align: middle; */
-    /* margin: 0;
-    padding: 0; */
-}
-
-table#map a {
-    font-family: var(--regular-font);
-    font-size: 50%;
-    /* text-align: center; */
-    padding: none;
-}
-
 
 /* ARTICLE & GALLERY */
 
