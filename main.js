@@ -32,8 +32,8 @@ var footer = '<footer> \
 
 var fav = document.createElement("link");
 fav.setAttribute("rel", "icon");
-fav.setAttribute("href", "/icons/vertical-icon-portrait.jpg");
-fav.setAttribute("type", "image/jpg");
+fav.setAttribute("href", "/icons/favicon.svg");
+fav.setAttribute("type", "image/svg");
 
 
 document.head.appendChild(fav);
