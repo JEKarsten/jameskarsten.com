@@ -30,7 +30,13 @@ var footer = '<footer> \
 </div>\
 </footer>';
 
+var fav = document.createElement("link");
+fav.setAttribute("rel", "icon");
+fav.setAttribute("href", "/icons/vertical-icon-portrait.jpg");
+fav.setAttribute("type", "image/jpg");
 
-document.getElementsByTagName("head")[0].innerHTML += '<link rel="icon" href="/icons/vertical-icon-portrait.jpg" sizes="any" type="image/jpg">';
+
+document.head.appendChild(fav);
+// document.getElementsByTagName("head")[0].innerHTML += '<link rel="icon" href="/icons/vertical-icon-portrait.jpg" sizes="any" type="image/jpg">';
 document.getElementById("headerInclude").innerHTML = header;
 document.getElementById("footerInclude").innerHTML = footer;
