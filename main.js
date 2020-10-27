@@ -11,8 +11,8 @@ var header = '<header>\
             <a href="film.html">B&W Film</a>\
         </div>\
     </div>\
-    <a href="about.html" class="nav-level-1">About</a>\
-    <a href="contact.html" class="nav-level-1">Contact</a>\
+    <a href="/about" class="nav-level-1">About</a>\
+    <a href="contact" class="nav-level-1">Contact</a>\
 </div>\
 </header>';
 
