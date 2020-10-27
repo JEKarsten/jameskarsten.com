@@ -1,6 +1,6 @@
 var header = '<header>\
 <div id="head">\
-    <a href="/index"><span id="name-first">James</span><span id="name-last">Karsten</span></a>\
+    <a href="/"><span id="name-first">James</span><span id="name-last">Karsten</span></a>\
 </div>\
 <div id="navigation">\
     <div class="dropdown">\
