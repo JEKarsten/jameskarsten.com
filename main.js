@@ -37,5 +37,3 @@ fav.setAttribute("type", "image/svg");
 document.head.appendChild(fav);
 document.getElementsByTagName("header")[0].innerHTML = header;
 document.getElementsByTagName("footer")[0].innerHTML = footer;
-document.getElementById("headerInclude").innerHTML = header;
-document.getElementById("footerInclude").innerHTML = footer;
