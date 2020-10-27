@@ -1,6 +1,6 @@
 var header = '<header>\
 <div id="head">\
-    <a href="index"><span id="name-first">James</span><span id="name-last">Karsten</span></a>\
+    <a href="/index"><span id="name-first">James</span><span id="name-last">Karsten</span></a>\
 </div>\
 <div id="navigation">\
     <div class="dropdown">\
@@ -9,7 +9,7 @@ var header = '<header>\
             <a href="/photography/composite">Composite</a>\
             <a href="/photography/portrait">Portrait</a>\
             <a href="/photography/nature-urban">Nature & Urban</a>\
-            <a href="/photography/photofilm">Black & White Film</a>\
+            <a href="/photography/film">Black & White Film</a>\
         </div>\
     </div>\
     <div class="dropdown">\
