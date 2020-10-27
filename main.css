@@ -215,7 +215,6 @@ a:hover.nav-level-1 {
 /* ARTICLE & GALLERY */
 
 article {
-    /* flex: 1; */
     padding-top: 5%;
     padding-bottom: 5%;
     width: 80%;
@@ -224,12 +223,7 @@ article {
 }
 
 article.gallery {
-    /* flex: 1; */
-    padding-top: 5%;
-    padding-bottom: 5%;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .main-gallery {
