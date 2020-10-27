@@ -37,6 +37,6 @@ fav.setAttribute("type", "image/svg");
 
 
 document.head.appendChild(fav);
-// document.getElementsByTagName("head")[0].innerHTML += '<link rel="icon" href="/icons/vertical-icon-portrait.jpg" sizes="any" type="image/jpg">';
+document.getElementsByTagName("header")[0].innerHTML = header;
 document.getElementById("headerInclude").innerHTML = header;
 document.getElementById("footerInclude").innerHTML = footer;
