@@ -1,18 +1,26 @@
 var header = '<header>\
 <div id="head">\
-    <a href="index.html"><span id="name-first">James</span><span id="name-last">Karsten</span></a>\
+    <a href="index"><span id="name-first">James</span><span id="name-last">Karsten</span></a>\
 </div>\
 <div id="navigation">\
     <div class="dropdown">\
-        <a href="photography.html" class="nav-level-1">Photography</a>\
+        <a href="/photography" class="nav-level-1">Photography</a>\
         <div class="nav-level-2">\
-            <a href="portrait">Portrait</a>\
-            <a href="nature.html">Nature & Urban</a>\
-            <a href="film.html">B&W Film</a>\
+            <a href="/photography/composite">Composite</a>\
+            <a href="/photography/portrait">Portrait</a>\
+            <a href="/photography/nature-urban">Nature & Urban</a>\
+            <a href="/photography/photofilm">Black & White Film</a>\
         </div>\
     </div>\
+    <div class="dropdown">\
+        <a href="/design" class="nav-level-1">Design</a>\
+        <div class="nav-level-2">\
+            <a href="/design/print">Print Media</a>\
+            <a href="/design/logos">Logos</a>\
+        </div>\
+    </div>\
+    <a href="/coding" class="nav-level-1">Coding</a>\
     <a href="/about" class="nav-level-1">About</a>\
-    <a href="contact" class="nav-level-1">Contact</a>\
 </div>\
 </header>';
 
