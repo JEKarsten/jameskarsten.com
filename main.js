@@ -28,14 +28,13 @@ var footer = '\
   Copyright &copy; 2020 James Karsten. All rights reserved.\
 </div>';
 
-/*
+
 var fav = document.createElement("link");
 fav.setAttribute("rel", "icon");
 fav.setAttribute("href", "/icons/favicon.svg");
 fav.setAttribute("type", "image/svg");
-*/
 
 
-// document.head.appendChild(fav);
+document.head.appendChild(fav);
 document.getElementsByTagName("header")[0].innerHTML = header;
 document.getElementsByTagName("footer")[0].innerHTML = footer;
