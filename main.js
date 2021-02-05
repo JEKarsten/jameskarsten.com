@@ -6,9 +6,9 @@ var header = '\
   <div class="dropdown">\
     <a href="/photography" class="nav-level-1">Photography</a>\
     <div class="nav-level-2">\
-      <a href="/photography/composite">Composite</a>\
       <a href="/photography/portrait">Portrait</a>\
       <a href="/photography/nature-urban">Nature & Urban</a>\
+      <a href="/photography/surrealism">Surrealism</a>\
       <a href="/photography/film">Black & White Film</a>\
     </div>\
   </div>\
@@ -25,7 +25,7 @@ var header = '\
 
 var footer = '\
 <div id="copyright">\
-  Copyright &copy; 2020 James Karsten. All rights reserved.\
+  Copyright &copy; 2021 James Karsten. All rights reserved.\
 </div>';
 
 
