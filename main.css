@@ -268,7 +268,7 @@ article.home {
 }
 
 
-.icon-photography {
+.home-icon {
     /* mask: url(/icons/icon-camera.svg);
     display: inline-block;
     width: 70px;
@@ -278,7 +278,7 @@ article.home {
     fill: var(--secondary-color);
 }
 
-.home-main-section:hover .icon-photography {
+.home-main-section:hover .home-icon {
     fill: var(--tertiary-color);
     /* background: var(--tertiary-color); */
 }
