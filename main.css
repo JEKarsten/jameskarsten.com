@@ -88,7 +88,7 @@ h2 {
 h3 {
     margin-top: 17px;
     font-size: 100%;
-    font-family: var(--medium-font);
+    font-family: var(--regular-font);
 }
 
 li {
@@ -119,7 +119,9 @@ li a:hover {
 
 hr {
     border-color: var(--secondary-color);
-    border-width: thin;
+    border-width: .5pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
