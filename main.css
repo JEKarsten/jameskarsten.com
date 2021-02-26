@@ -276,8 +276,7 @@ article.home {
     fill: var(--secondary-color);
 }
 
-.icon-photography:hover,
-.icon-photography:focus {
+.home-main-section:hover .icon-photography {
     fill: var(--tertiary-color);
     /* background: var(--tertiary-color); */
 }
