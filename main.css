@@ -263,7 +263,7 @@ article.home {
 }
 
 #icon-photography:hover,
-.#icon-photography:focus {
+#icon-photography:focus {
   background: var(--tertiary-color);
 }
 
