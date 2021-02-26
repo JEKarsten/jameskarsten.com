@@ -240,7 +240,15 @@ article.home {
     margin: .5em;
 }
 
+.home-main-section:hover {
+    fill: var(--tertiary-color);
+}
+
 .home-main-section img {
+    height: 1em;
+}
+
+.home-main-section svg {
     height: 1em;
 }
 
