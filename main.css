@@ -8,9 +8,13 @@
     --nav-padding: 20px;
     --footer-height: 30px;
 
-    --black-font: RobotoBlack, Arial, Helvetica, sans-serif;
-    --medium-font: RobotoMedium, Arial, Helvetica, sans-serif;
+
     --regular-font: RobotoRegular, Arial, Helvetica, sans-serif;
+    --regular-italic-font: RobotoRegularItalic, Arial, Helvetica, sans-serif;
+    --light-font: RobotoLight, Arial, Helvetica, sans-serif;
+    --medium-font: RobotoMedium, Arial, Helvetica, sans-serif;
+    --medium-italic-font: RobotoMediumItalic, Arial, Helvetica, sans-serif;
+    --black-font: RobotoBlack, Arial, Helvetica, sans-serif;
 }
 
 
@@ -22,8 +26,24 @@
 }
 
 @font-face {
+    font-family: RobotoRegularItalic;
+    src: url(/fonts/Roboto-Italic.ttf);
+}
+
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
     font-family: RobotoMedium;
     src: url(/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: RobotoMediumItalic;
+    src: url(/fonts/Roboto-MediumItalic.ttf);
 }
 
 @font-face {
@@ -57,6 +77,7 @@ p {
     font-size: 100%;
     margin-bottom: 9px;
     font-family: var(--regular-font);
+    line-height: 120%;
 }
 
 p a {
@@ -86,9 +107,10 @@ h2 {
 }
 
 h3 {
-    margin-top: 7px;
+    margin-top: 5px;
     font-size: 100%;
-    font-family: var(--regular-font);
+    font-family: var(--medium-italic-font);
+    line-height: 120%;
 }
 
 li {
