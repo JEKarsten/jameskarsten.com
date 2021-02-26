@@ -70,10 +70,10 @@ p a:hover {
 }
 
 h1 {
-    font-family: var(--medium-font);
+    font-family: var(--black-font);
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 140%;
+    font-size: 170%;
     margin-bottom: 10px;
 }
 
