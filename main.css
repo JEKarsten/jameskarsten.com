@@ -227,7 +227,7 @@ article.home {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-left: auto;
     margin-right: auto;
 }
@@ -256,6 +256,19 @@ article.home {
 .home-main-section:hover a {
     color: var(--tertiary-color);
 }
+
+
+#icon-photography {
+    mask: url(/icons/icon-camera.svg);
+}
+
+#icon-photography:hover,
+.#icon-photography:focus {
+  background: var(--tertiary-color);
+}
+
+
+
 
 article.gallery {
     /* width: 100%; */
