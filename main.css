@@ -260,6 +260,11 @@ article.home {
 
 #icon-photography {
     mask: url(/icons/icon-camera.svg);
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background: var(--secondary-color);
+    mask-size: cover;
 }
 
 #icon-photography:hover,
