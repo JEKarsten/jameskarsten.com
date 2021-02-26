@@ -243,6 +243,8 @@ article.home {
 }
 
 .home-main-section a {
+    font-size: 400%;
+    font-family: var(--medium-font);
     text-transform: none;
     color: var(--secondary-color);
     text-decoration: none;
@@ -255,6 +257,8 @@ article.home {
 article.gallery {
     /* width: 100%; */
 }
+
+
 
 .main-gallery {
     width: 100%;
@@ -290,6 +294,8 @@ article.gallery {
 .main-gallery-item:hover img {
     opacity: .8;
 }
+
+
 
 table.photo-gallery {
     margin-left: auto;
