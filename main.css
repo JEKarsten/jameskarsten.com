@@ -258,18 +258,20 @@ article.home {
 }
 
 
-#icon-photography {
-    mask: url(/icons/icon-camera.svg);
+.icon-photography {
+    /* mask: url(/icons/icon-camera.svg);
     display: inline-block;
     width: 70px;
     height: 70px;
     background: var(--secondary-color);
-    mask-size: cover;
+    mask-size: cover; */
+    fill: var(--secondary-color);
 }
 
-#icon-photography:hover,
-#icon-photography:focus {
-  background: var(--tertiary-color);
+.icon-photography:hover,
+.icon-photography:focus {
+    fill: var(--tertiary-color);
+    /* background: var(--tertiary-color); */
 }
 
 
