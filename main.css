@@ -236,15 +236,17 @@ article.home {
     text-align: left;
     font-size: 400%;
     font-family: var(--medium-font);
+    text-transform: uppercase;
+    margin: .5em;
 }
 
 .home-main-section img {
     height: 1em;
 }
 
-.home-main-section a {
+.home-main-section a {/* 
     font-size: 400%;
-    font-family: var(--medium-font);
+    font-family: var(--medium-font); */
     text-transform: none;
     color: var(--secondary-color);
     text-decoration: none;
