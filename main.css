@@ -222,16 +222,30 @@ article {
     margin-right: auto;
 }
 
-article.gallery {
+article.home {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-main-section {
+    text-align: left;
+}
+
+article.gallery {
+    /* width: 100%; */
 }
 
 .main-gallery {
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
