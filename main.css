@@ -250,6 +250,7 @@ article.home {
     text-transform: none;
     color: var(--secondary-color);
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .home-main-section:hover a {
