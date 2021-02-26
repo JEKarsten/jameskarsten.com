@@ -142,9 +142,9 @@ li a:hover {
 
 hr {
     border-color: var(--secondary-color);
-    border-width: .5pt;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    border-width: 1pt;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 
