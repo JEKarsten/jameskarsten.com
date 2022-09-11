@@ -137,6 +137,11 @@ li a:hover {
     margin-bottom: 20px;
 }
 
+span.project-link {
+    font-size: 80%;
+    color: var(--tertiary-color);
+}
+
 
 /* SPACING ELEMENTS */
 
