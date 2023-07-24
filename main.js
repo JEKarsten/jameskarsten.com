@@ -34,7 +34,7 @@ var header = '\
 
 var footer = '\
 <div id="copyright">\
-  Copyright &copy; 2022 James Karsten. All rights reserved.\
+  Copyright &copy; 2023 James Karsten. All rights reserved.\
 </div>';
 
 
